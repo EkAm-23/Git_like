@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}",
+                "/opt/homebrew/opt/openssl/include",
+                "/opt/homebrew/opt/openssl/lib",
+                "/opt/homebrew/opt/zlib/include",
+                "/opt/homebrew/opt/zlib/lib"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "intelliSenseMode": "macos-clang-arm64"
+            
+        }
+    ],
+    "version": 4
+}
+
+//not used for compilation or running, but for autocomplete and intellisense and error detection
+//access the header files for autocompletion

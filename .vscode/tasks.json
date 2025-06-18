@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build & Auto-Run",
+            "type": "shell",
+            "command": "g++ ${file} -std=c++17 -o ${fileDirname}/program.out && chmod +x ${fileDirname}/program.out && ${fileDirname}/program.out < ${fileDirname}/input.txt > ${fileDirname}/output.txt",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",         
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false
+            },
+            "runOptions": {
+                "runOn": "default"
+            }
+        }
+        
+    ]
+}
+//< ${fileDirname}/input.txt > ${fileDirname}/output.txt
