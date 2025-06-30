@@ -19,7 +19,7 @@ This project is an implementation of a basic version control system, inspired by
 - Interactive Staging: Stage specific lines or parts of a file.
 
 ## Usage
-
+Run this command while in the project directory:
 g++ src/cli.cpp src/merge.cpp src/staging.cpp src/commit.cpp src/branch.cpp src/repository.cpp -o gitlikeEVM -lssl -lcrypto -lz
 
 ## Project Structure
